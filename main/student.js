@@ -12,6 +12,5 @@ function Student(name,age,klass)
 	}
 
 }
-
 Student.prototype = new Person;
 module.exports = Student
