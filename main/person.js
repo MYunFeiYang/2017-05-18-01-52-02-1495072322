@@ -1,12 +1,15 @@
 // Write your code here
 
-　function Person(name, age) {
-  this.name = name;
-  this.age = age;
+function Person(name, age){
+	this.name = name;
+	this.age = age;
+
+	this.introduce = function()
+	{
+		return "My name is Tom. I am 21 years old.";
+		
+	}
+
 }
-	Person.introduce = function () {
-	return 'My name is Tom. I am 21 years old.';
-};
-	var p = new Point(Tom, 21);
-	p.introduce();
-	module.exports = Person
+
+module.exports = Person
