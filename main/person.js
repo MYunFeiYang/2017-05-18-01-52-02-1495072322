@@ -1,5 +1,4 @@
 // Write your code here
-module.exports = Person
 　function Person(name, age) {
   this.name = name;
   this.age = age;
@@ -9,3 +8,4 @@ Person.introduce = function () {
 };
 var p = new Point(Tom, 21);
 	p.introduce();
+	module.exports = Person
